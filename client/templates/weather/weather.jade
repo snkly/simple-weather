@@ -1,0 +1,25 @@
+template(name="weather")
+    h3 Select a city
+    select.weatherCityOption
+        option(selected="true") Chapel Hill
+        option Dallas
+        option New York
+        option Johannesburg, South Africa
+        option Jamaica
+        option London
+        option Cairo
+        option Beijing
+        option Mexico City
+        option Denton, TX
+        option Pyongyang
+        option Raleigh
+        option Lagos, Nigeria
+        option Hyderabad, India
+        option Santiago
+
+    h1 {{currentCity}}
+    h3 {{currentWeather}}
+    h3 {{currentTemp}}
+    h4 {{hotOrCold}}
+    h3 {{currentCoord}}
+    //h3 {{currentRise}}
