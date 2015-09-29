@@ -1,0 +1,5 @@
+-textbox for entering city with autocomplete instead of hard list/dropdown, add to homepage
+-refresh every minute, update info accordingly
+-add 'x' seconds ago
+-add maps, weather icons
+-add d3.js visuals where necessary

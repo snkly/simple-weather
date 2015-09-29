@@ -10,4 +10,6 @@ Router.map ->
 
   @.route '/weather',
     template: 'weather'
-
+    action : ->
+      Session.set 'weatherCity', 'Chapel Hill'
+      @.render()
